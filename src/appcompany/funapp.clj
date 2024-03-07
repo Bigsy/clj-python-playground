@@ -10,7 +10,7 @@
 (require-python '[builtins :as python])
 (require-python '[base64 :as pybase64])
 (require-python '[funniest :as pyfunniest])
-(require-python '[google_play_scraper :as gps])
+(require-python ["google_play_scraper" :as gplay])
 
 
 (defn encode-python [s]
